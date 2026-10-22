@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'DM Sans', sans-serif; color: #fff; background: #080807; font-synthesis: none; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #080807; }
+button, input, textarea { font: inherit; }
+.font-display { font-family: 'Playfair Display', serif; }
+.bg-ink { background: #080807; }
+.text-gold-300 { color: #f7d477; }
+.bg-gold-400 { background: #e9b83f; }
+.border-gold-400 { border-color: #e9b83f; }
+.shadow-gold { box-shadow: 0 10px 30px rgba(233, 184, 63, 0.18); }
+.wave-bar { animation: wave 0.8s ease-in-out infinite alternate; transform-origin: bottom; }
+.volume-slider { height: 4px; width: 100%; cursor: pointer; appearance: none; border-radius: 999px; background: linear-gradient(to right, #e9b83f 0%, #e9b83f 80%, rgba(255,255,255,.16) 80%, rgba(255,255,255,.16) 100%); }
+.volume-slider::-webkit-slider-thumb { appearance: none; width: 13px; height: 13px; border-radius: 50%; background: #f7d477; border: 2px solid #11110f; }
+.volume-slider::-moz-range-thumb { width: 13px; height: 13px; border-radius: 50%; background: #f7d477; border: 2px solid #11110f; }
+@keyframes wave { from { transform: scaleY(.45); opacity: .45; } to { transform: scaleY(1); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
