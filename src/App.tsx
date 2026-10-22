@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 
-const streamUrl = 'https://listen.nobexradio.com/station_multisertaneja';
+const streamUrl = 'https://usa13.fastcast4u.com/proxy/ricardo1975?mp=/1';
 const heroImage = 'https://images.pexels.com/photos/38011571/pexels-photo-38011571.jpeg?auto=compress&cs=tinysrgb&h=650&w=940';
 
 const rankingSlots = Array.from({ length: 10 }, (_, index) => index + 1);
